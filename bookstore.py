@@ -17,7 +17,7 @@ total_cost = 450 + 600
 cost_format = "\tTotal Amount:-----₹{}"
 final_cost=cost_format.format(total_cost)
 
-thank_you = "\tThank You for shopping with us!!!\n"
+thankYou = "\tThank You for shopping with us!!!\n"
 
 full_receipt = (
     header + 
@@ -26,7 +26,7 @@ full_receipt = (
     "\t----------------------------------------\n" + 
     final_cost + "\n" + 
     "\t----------------------------------------\n\n" +
-    thank_you
+    thankYou
 )
 
 print(full_receipt.upper())
