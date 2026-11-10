@@ -16,7 +16,7 @@ print("Find students who are only in the Python course but not in Data Science: 
 
 print("Display the combined list of all students in either course (no duplicates): ",Python | Data_Science)
 
-course_dict = {"Python":4,"Data_Science":3}
+course_dict = {"Python":len(Python),"Data_Science":len(Data_Science)}
 print("Create a dictionary with course names as keys and number of students as values: ",course_dict)
 
 for course, students in course_dict.items():
